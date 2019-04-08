@@ -1,0 +1,19 @@
+
+.effects-container {
+    background-color: #fff;
+    padding: 40px 0px; 
+    overflow: hidden;
+
+}
+.effects-container img {
+    width: 100%;
+    height: auto; 
+}
+.card {
+    padding: 5px; 
+    width: 100%;
+    float: left; 
+    margin: 5px; 
+    border: none; 
+    box-sizing: border-box;
+}
