@@ -1,6 +1,115 @@
+body{
+    background-color: #fff; 
+    background-size: 400% 400%;
+    font-family: 'Source Sans Pro', sans-serif;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+  }
+/* .nav-link{
+    color: #fff !important; 
+  } */
+.card a {
+  text-decoration: none; 
+  color: #555
+}
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  text-align: center; 
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h5 {
+  text-transform: capitalize;
+  margin-top: -15px; 
+  font-size: 15px; 
+}
+.padding-right {
+  padding-right: 120px;
+}
+
+
+.sub-heading{
+  margin-top: -10px; 
+  font-size: 12px;
+line-height: 16px;
+font-weight: 700;
+text-transform: uppercase;
+  }
+  p.small  {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+  
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+  
+    50% {
+      background-position: 100% 50%
+    }
+  
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+  
+    50% {
+      background-position: 100% 50%
+    }
+  
+    100% {
+      background-position: 0% 50%
+    }
+  }
+  
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 50%
+    }
+  
+    50% {
+      background-position: 100% 50%
+    }
+  
+    100% {
+      background-position: 0% 50%
+    }
+  }
+.navbar-brand {
+  max-width: 200px; 
+  height: auto; 
+}
+.header {
+  height: 400px; 
+  background-color: #fff; 
+}
+.header-content{
+  width: 100%;  
+  padding-top: 100px; 
+  margin-top: 30px; 
+  margin: auto; 
+  height: 400px; 
+}
+.header-img {
+  max-width: 500px; 
+  height: auto; 
+  margin-left: 300px;
+}
 
 .effects-container {
-    background-color: #fff;
+    margin-top: 40px; 
+    width: auto; 
+    margin: auto; 
+    /* background-color: #fff; */
     padding: 40px 0px; 
     overflow: hidden;
 
@@ -8,12 +117,27 @@
 .effects-container img {
     width: 100%;
     height: auto; 
+    border-radius: 10px; 
 }
 .card {
-    padding: 5px; 
+    text-align: center; 
+    background-color: transparent;
+    padding: 2px; 
     width: 100%;
     float: left; 
-    margin: 5px; 
     border: none; 
     box-sizing: border-box;
+}
+.button {
+  background-color: #00ff00;
+    color: #fff;
+    width: 100%; 
+}
+.button:hover {
+    color: #777; 
+   
+}
+footer {
+  height: 300px; 
+  background-color: aqua;
 }
