@@ -63,6 +63,14 @@ if (Effect.all.length < 1) {
         'https://www.instagram.com/michelemsaba/',
         '@michelemsaba'
     );
+    var starBright = new Effect(
+        'Star Bright',
+        'https://www.instagram.com/a/r/?effect_id=243834816552692',
+        './img/floatingStars.jpg',
+        'Jersey Saba',
+        'https://www.instagram.com/michelemsaba/',
+        '@michelemsaba'
+    );
 }
 function renderEffects() {
     var effectsContainer = document.getElementById('effects-container');

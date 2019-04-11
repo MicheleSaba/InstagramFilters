@@ -9,8 +9,9 @@ body{
 /* .nav-link{
     color: #fff !important; 
   } */
-.card a {
+.card-body a {
   text-decoration: none; 
+  font-size: 15px; 
   color: #555
 }
 h1 {
