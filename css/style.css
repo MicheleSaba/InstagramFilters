@@ -5,10 +5,10 @@ body{
     -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 10s ease infinite;
     animation: Gradient 10s ease infinite;
+    text-align: center;
+    color: #444; 
   }
-/* .nav-link{
-    color: #fff !important; 
-  } */
+
 .card-body a {
   text-decoration: none; 
   font-size: 15px; 
@@ -16,10 +16,13 @@ body{
 }
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   text-align: center; 
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
+}
+h2 {
+  font-size: 20px;
 }
 h5 {
   text-transform: capitalize;
@@ -90,7 +93,7 @@ text-transform: uppercase;
   height: auto; 
 }
 .header {
-  height: 400px; 
+  height: 300px; 
   background-color: #fff; 
 }
 .header-content{
@@ -98,7 +101,7 @@ text-transform: uppercase;
   padding-top: 100px; 
   margin-top: 30px; 
   margin: auto; 
-  height: 400px; 
+  height: 200px; 
 }
 .header-img {
   max-width: 500px; 
@@ -107,9 +110,10 @@ text-transform: uppercase;
 }
 
 .effects-container {
-    margin-top: 40px; 
+    margin-top: 20px; 
     width: auto; 
     margin: auto; 
+    display: flex; 
     /* background-color: #fff; */
     padding: 40px 0px; 
     overflow: hidden;
@@ -123,9 +127,9 @@ text-transform: uppercase;
 .card {
     text-align: center; 
     background-color: transparent;
-    padding: 2px; 
-    width: 100%;
+    padding: 15px; 
     float: left; 
+    width: 60%; 
     border: none; 
     box-sizing: border-box;
 }
@@ -139,6 +143,8 @@ text-transform: uppercase;
    
 }
 footer {
-  height: 300px; 
-  background-color: aqua;
+  height: 80px; 
+  clear: both;
+  text-align: center; 
+  width: 100%; 
 }
